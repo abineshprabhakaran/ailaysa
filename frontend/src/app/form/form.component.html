@@ -1,0 +1,32 @@
+<main>
+    <section class="flex justifyCenter alignCenter height100">
+        <div class="card">
+            <div>
+                <div>
+                    <h1 class="textCenter">CONTACT FORM</h1>
+                </div>
+                <div class="padding20">
+                    <div>
+                        <p-dropdown formControlName="selectedCountry" [options]="countries" optionLabel="name"
+                            placeholder="Select a Country" (onChange)="countrySelect($event)" />
+
+                    </div>
+                    <div class="marginTop30">
+                        <p-dropdown formControlName="selectedCity" [options]="cities" optionLabel="name"
+                            placeholder="Select a City" [disabled]="cityEnable"  (onChange)="citySelect($event)"/>
+
+                    </div>
+                    <div class="marginTop30">
+                        <p-dropdown formControlName="selectedSchool" [options]="schools" optionLabel="name"
+                            placeholder="Select a School" [disabled]="schoolEnable" />
+
+                    </div>
+                    <div class="marginTop30 flex justifyCenter">
+                        <button class="submitButton">SUBMIT</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>

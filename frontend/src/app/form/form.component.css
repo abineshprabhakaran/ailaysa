@@ -1,0 +1,47 @@
+body{
+    margin:0 !important;
+}
+.flex{
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.alignCenter{
+    align-items: center;
+}
+main{
+    background-color: #6336DF;
+    height:100vh;
+    width:100%;
+}
+.card{
+    background-color:#fff;
+    padding:10px;
+    width:50%;
+    border-radius: 20px;
+}
+.height100{
+    height:100%;
+}
+
+.textCenter{
+    text-align:center
+}
+.marginTop30{
+    margin-top:30px;
+}
+.padding20{
+    padding:20px;
+}
+.submitButton{
+    height:45px;
+    background-color: #6336DF;
+    padding:10px;
+    width:125PX;
+    border-radius: 15px;
+    color:#fff;
+    font-size:18px;
+    border:none;
+    cursor: pointer;
+}
